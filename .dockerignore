@@ -1,0 +1,32 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Project outputs / caches
+.encoding_cache/
+reports/
+logs/
+*.log
+
+# VCS / editor
+.git/
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Large / non-runtime directories (optional, keep if you don't need them at runtime)
+docs/
+tests/
+
